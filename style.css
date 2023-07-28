@@ -1,0 +1,38 @@
+ body{
+   background-size: contain;
+   font-family: 'Bagel Fat One', cursive;
+  }
+ .heading {
+    font-size: 25px;
+    color: white;
+    width: 85%;
+    margin:0px;
+    background-color: rgb(65, 158, 165);
+    box-shadow: 10px 10px 5px rgb(48, 70, 72);
+ }
+
+ .note {
+    font-size:18px;
+    color: white;
+ }
+
+ .copy_right_footer {
+    position: fixed;
+    font-size: 30px;
+    font-family: 'Cedarville Cursive', cursive;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    width: 20%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    box-shadow: 10px 10px 5px  rgb(48, 70, 72);
+    background-color: rgb(65, 158, 165);
+    line-height:  2;
+    text-align: center;
+ }
+
+ canvas, video {
+    border: 5px outset rgb(65, 158, 165);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(48, 70, 72) ;
+ }
